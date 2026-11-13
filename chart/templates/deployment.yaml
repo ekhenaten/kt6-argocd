@@ -18,7 +18,7 @@ spec:
           command: ["/bin/sh", "-c"]
           args:
             - |
-              printf '<h1>KT-6</h1><p>%s | %s | %s</p>\n' \
+              printf '<h1>KT-6 Updated</h1><p>%s | %s | %s</p>\n' \
                 '{{ $.Values.environment }}' '{{ $color }}' \
                 '{{ $version }}' > /usr/share/nginx/html/index.html
               exec nginx -g 'daemon off;'
