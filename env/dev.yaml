@@ -1,0 +1,9 @@
+environment: dev
+activeColor: blue
+replicaCount: 1
+versions:
+  blue: v1
+  green: v1
+resources:
+  requests: {cpu: 50m, memory: 64Mi}
+  limits: {cpu: 250m, memory: 128Mi}
