@@ -1,5 +1,5 @@
 environment: staging
-activeColor: green
+activeColor: blue
 replicaCount: 1
 versions:
   blue: v1
