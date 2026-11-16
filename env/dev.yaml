@@ -1,5 +1,5 @@
 environment: dev
-activeColor: blue
+activeColor: green
 replicaCount: 1
 versions:
   blue: v1
