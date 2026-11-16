@@ -3,7 +3,7 @@ activeColor: blue
 replicaCount: 2
 versions:
   blue: v1
-  green: v1
+  green: v2
 resources:
   requests: {cpu: 100m, memory: 96Mi}
   limits: {cpu: 500m, memory: 192Mi}
