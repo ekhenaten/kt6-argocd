@@ -1,5 +1,5 @@
 environment: prod
-activeColor: green
+activeColor: blue
 replicaCount: 2
 versions:
   blue: v1
